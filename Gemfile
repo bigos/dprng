@@ -37,3 +37,21 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug'
+
+
+gem 'chosen-rails'
+gem 'thin'
+gem 'nokogiri', '~> 1.5.10'
+
+gem 'will_paginate', '>= 3.0.0'
+gem "inherited_resources", ">= 1.3.0"
+gem 'haml-rails'
+gem 'jquery_datepicker'
+
+group :development, :test do
+  gem "rspec-rails", ">= 2.0"
+  gem 'capybara', '~> 1.1.1'
+  gem 'database_cleaner', '0.6.5'
+  gem 'cucumber-rails', '>=1.1.1'
+end
+
